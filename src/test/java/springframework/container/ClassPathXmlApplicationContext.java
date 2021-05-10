@@ -1,13 +1,13 @@
-package org.springframework.container;
+package springframework.container;
 
-import org.springframework.annotation.aop.Around;
-import org.springframework.annotation.aop.Aspect;
-import org.springframework.annotation.ioc.Autowired;
-import org.springframework.annotation.ioc.Component;
-import org.springframework.annotation.ioc.Controller;
-import org.springframework.annotation.ioc.Service;
-import org.springframework.aop.JdkDynamicProxy;
-import org.springframework.xml.SpringConfigParser;
+import springframework.annotation.aop.Around;
+import springframework.annotation.aop.Aspect;
+import springframework.annotation.ioc.Autowired;
+import springframework.annotation.ioc.Component;
+import springframework.annotation.ioc.Controller;
+import springframework.annotation.ioc.Service;
+import springframework.aop.JdkDynamicProxy;
+import springframework.xml.SpringConfigParser;
 
 import java.io.File;
 import java.lang.reflect.Field;
